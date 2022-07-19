@@ -5,7 +5,7 @@
         <br /><br /><br /><br /><br /><br />
         <v-col cols="12" sm="6">
           <h1>Discover all abilities of<br /> a Pokemon</h1><br />
-          <v-row no-gutters align="center" justify="center">
+          <v-row no-gutters>
             <v-col cols="12" sm="12">
               <div class="d-flex">
                 <v-text-field class="pt-1 mr-2" dense outlined clearable placeholder="Enter pokemon name (In English)"
@@ -16,7 +16,7 @@
               </div>
             </v-col>
           </v-row>
-          <v-row no-gutters justify="left">
+          <v-row no-gutters>
             <v-list>
               <v-list-item v-for="i in abilities" :key="i">
                 <v-list-item-content>
