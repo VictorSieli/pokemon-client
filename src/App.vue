@@ -77,7 +77,7 @@ export default {
         }
         this.loading = !this.loading;
       } else {
-        this.abilities = [];
+        this.abilities = []; 
         this.text = "To discover abilities, please type a pokemon name";
         this.snackbar = true;
       }
